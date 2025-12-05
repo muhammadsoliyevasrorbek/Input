@@ -1,0 +1,524 @@
+/* plus-jakarta-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/plus-jakarta-sans-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../fonts/plus-jakarta-sans-v12-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url('../fonts/plus-jakarta-sans-v12-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/plus-jakarta-sans-v12-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../fonts/plus-jakarta-sans-v12-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* plus-jakarta-sans-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Plus Jakarta Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/plus-jakarta-sans-v12-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Plus Jakarta Sans;
+  margin: 0;
+}
+.container{
+  width: 1260px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+ul,ol{
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+h1,h2,h3,p{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+img{
+  display: block;
+}
+.wrapper{
+    display: flex;
+    width: 1440px;
+    padding: 30px 112px 24px 112px;
+    border-bottom: 1px solid #EEEEF4;
+    background-color: #fff;
+}
+.header-photo{
+    margin-right: 50px;
+}
+.header-list{
+    display: flex;
+    gap: 30px;
+    
+}
+.header-link{
+    color: #101010;
+    font-family: Plus Jakarta Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 16px;
+line-height: 150%;
+letter-spacing: 0px;
+}
+.header-tel{
+  display: block;
+  margin-left: 527px;
+  background-color: #101010;
+  width: 156px;
+  border-radius: 6px;
+  color: #FFFFFF;
+  padding: 12px;
+   text-align: center;
+  border: 1px solid black;
+}
+.header-tel:hover{
+  background-color: #FFFFFF;
+  border-color: #1AAB7B;
+  color: #1AAB7B;
+}
+.header-tel:active{
+  background-color: #101010;
+opacity: 0.6;
+border-color:inherit;
+color: white;
+}
+.header-link:hover{
+  color: #1AAB7B;
+}
+.header-link:active{
+  color: #1AAB7B;
+  opacity: 0.6;
+}
+.section-wrapper{
+  display: flex;
+  padding: 91px 112px 156px 112px;
+
+}
+.business-title{
+  width: 550px;
+  font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 56px;
+color:#101010;
+line-height: 140%;
+letter-spacing: 0px;
+margin-bottom: 20px;
+}
+.business-text{
+  width: 537px;
+  font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-size: 18px;
+color: #636F87;
+line-height: 150%;
+letter-spacing: 0px;
+margin-bottom: 40px;
+}
+.business-link{
+  width: 168px;
+  background-color: #1AAB7B;
+  padding: 20px 40px 20px 40px;
+  font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 16px;
+line-height: 120%;
+letter-spacing: 0px;
+text-align: center;
+color: #FFFFFF;
+border-radius: 10px;
+border: 1px solid #1AAB7B;
+}
+.business-link:hover{
+  background-color: #FFFFFF;
+  border-color: #1AAB7B;
+  color: #1AAB7B;
+}
+.business-link:active{
+  background-color: #1AAB7B;
+  opacity: 0.7;
+  border-color: inherit;
+  color: #FFFFFF;
+}
+.help-wrapper{
+  width: 1440px;
+  background-color: #F2F4F6;
+}
+.help-title{
+  text-align: center;
+  padding-top: 50px;
+  color: #101010;
+  font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 36px;
+line-height: 140%;
+letter-spacing: 0px;
+margin-bottom: 40px;
+}
+.help-list{
+  display: flex;
+  flex-wrap: wrap;
+gap: 32px;
+padding-bottom:  50px;
+padding-left: 112px;
+/* background-color: #F2F4F6; */
+}
+.help-item{
+  width: 384px;
+  border-radius: 6px;
+  border: 2px solid #E1E7ED;
+  background-color:#F2F4F6;
+  padding:  30px;
+}
+.help-photo{
+  border-radius: 6px;
+  margin-left: 74px;
+}
+.help-item:hover{
+  background-color: #1AAB7B;
+}
+.help-item:hover .help-subtitle{
+  color: #FFFFFF;
+}
+.help-item:hover .help-text{
+  color: #FFFFFF;
+}
+.help-item:hover .help-link{
+  color: #FFFFFF;
+}
+.help-item:hover .help-photo{
+  border-radius: 6px;
+}
+.help-item:hover :after{
+  background-color: #fff;
+}
+.help-subtitle{
+  font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 32px;
+color:#101010;
+line-height: 140%;
+letter-spacing: 0px;
+margin-bottom: 20px;
+justify-content: space-between;
+}
+.help-stitle1::after{
+ display: block;
+  content: "";
+  width: 64px;
+  height: 64px;
+  background-image: url(./images/pen-tool.png);
+  background-size: 30px 30px;
+  background-color:#E1E7ED ;
+  background-repeat: no-repeat;
+  border-radius: 84px;
+background-position: center;
+}
+.help-subtitle{
+display: flex;
+}
+.help-stitle2::after{
+    display: block;
+  content: "";
+  width: 64px;
+  height: 64px;
+  background-image: url(./images/chart-2.svg);
+  background-size: 30px 30px;
+  background-color:#E1E7ED ;
+  background-repeat: no-repeat;
+  border-radius: 84px;
+background-position: center;
+}
+.help-stitle3::after{
+    display: block;
+  content: "";
+  width: 64px;
+  height: 64px;
+  background-image: url(./images/blur.svg);
+  background-size: 30px 30px;
+  background-color:#E1E7ED;
+  background-repeat: no-repeat;
+  border-radius: 84px;
+background-position: center;
+}
+.help-stitle4::after{
+    display: block;
+  content: "";
+  width: 64px;
+  height: 64px;
+  background-image: url(./images/simcard.svg);
+  background-size: 30px 30px;
+  background-color: #E1E7ED;
+  background-repeat: no-repeat;
+  border-radius: 84px;
+background-position: center;
+}
+.help-stitle5::after{
+    display: block;
+  content: "";
+  width: 64px;
+  height: 64px;
+  background-image: url(./images/designtools.svg);
+  background-size: 30px 30px;
+  background-color:#E1E7ED;
+  background-repeat: no-repeat;
+  border-radius: 84px;
+background-position: center;
+}
+.help-text{
+  width: 324px;
+  font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-size: 18px;
+color: #636F87;
+line-height: 150%;
+letter-spacing: 0%;
+margin-bottom: 50px;
+}
+.help-link{
+  font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-size: 20px;
+color: #000000;
+line-height: 140%;
+letter-spacing: 0%;
+font-variant: small-caps;
+}
+.divs-wrapper{
+  width: 1216px;
+
+}
+.work-title{
+ color: #101010;
+  font-family: Plus Jakarta Sans;
+font-weight: 600;
+font-style: SemiBold;
+font-size: 36px;
+line-height: 140%;
+letter-spacing: 0px;
+text-align: center;
+margin-top:100px ;
+margin-bottom: 16px;
+}
+.work-text{
+  font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-size: 18px;
+color: #636F87;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+width: 650px;
+ margin: 0 auto;
+}
+.work-wrapper{
+  display: flex;
+  gap: 32px;
+  margin-bottom: 100px;
+  padding-top: 90px;
+}   
+ .clarify-subtitle{
+  font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 40px;
+color: #101010;
+line-height: 140%;
+letter-spacing: 0px;
+width: 488px;
+margin-bottom: 20px;
+ }
+ .clarify-text{
+  font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 18px;
+color: #636F87;
+line-height: 150%;
+letter-spacing: 0px;
+width: 488px;
+ }
+ .work-wrapper2{
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 94px;
+  gap: 32px;
+ }
+ .work-wrapper3{
+  display: flex;
+  gap: 32px;
+ }
+ .leave-subtitle{
+margin: 0 auto;
+  font-family: Plus Jakarta Sans;
+font-weight: 700;
+font-style: Bold;
+font-size: 36px;
+color: #101010;
+line-height: 140%;
+letter-spacing: 0px;
+text-align: center;
+width: 411px;
+margin-top: 150px;
+ }
+ .leave-text{
+   margin: 0 auto;
+   width: 650px;
+   color:#636F87;
+   font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0%;
+text-align: center;
+margin-bottom: 60px;
+ }
+ .leave-form{
+  padding: 64px 312px 64px 312px;
+  background-color: #F2F4F6;
+  width: 1008px;
+  border-radius: 6px;
+ }
+.name-input{
+  display: block;
+  width: 384px;
+  padding-bottom: 21px;
+  background-color: inherit;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #636F87;
+  margin-bottom: 51px;
+}
+.name-input::placeholder{
+color: black;
+}
+.submit-input{
+  /* display: block; */
+  width: 180px;
+  background-color: #1AAB7B;
+  padding: 20px 40px 20px 40px;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  color: #FFFFFF;
+  margin-left: 102px;
+}
+.text-input{
+  font-family: Plus Jakarta Sans;
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+color: #858EA1;
+line-height: 150%;
+letter-spacing: 0px;
+text-align: center;
+}
+.leave{
+  margin-bottom: 200px;
+}
+footer{
+  background-color: #101010;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.footer-wrapper{
+  display: flex;
+}
+.footer-list1{
+  margin-right: 228px;
+
+}
+.footer-list2{
+  margin-right: 521px;
+}
+.footer-item1{
+  margin-bottom: 30px;
+}
+.footer-item{
+  margin-bottom: 26px;
+  font-family: Plus Jakarta Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0px;
+}
+.footer-item:hover{
+  color: #1AAB7B;
+}
+.footer-text{
+  color:#FFFFFF ;
+}
+.footer-link{
+  color: #A1A8B7;
+}
+.footer-link:hover{
+  color: #1AAB7B;
+}
+.footer-link:active{
+  color: #1AAB7B;
+  opacity: 0.8;
+}
+.footer-inner-list{
+  display: flex;
+  gap: 40px;
+}
+.footer-inner-wrapper{
+  display: flex;
+  margin-top: 49px;
+}
+.footer-inner-desk{
+  color:#FFFFFF ;
+  font-family: Plus Jakarta Sans;
+font-weight: 500;
+font-style: Medium;
+font-size: 18px;
+line-height: 150%;
+letter-spacing: 0px;
+text-align: right;
+margin-left: 934px;
+}
+
+
+
+
+
+

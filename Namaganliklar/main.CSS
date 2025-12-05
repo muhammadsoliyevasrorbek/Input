@@ -1,0 +1,300 @@
+/* rubik-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/rubik-v31-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/rubik-v31-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* rubik-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/rubik-v31-latin-900.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+
+}
+ul{
+    list-style: none;
+    padding-left: 0;
+}
+a{
+    text-decoration: none;
+}
+p{
+    margin: 0;
+}
+.container{
+    width: 1240px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.wrapper{
+    display: flex;
+    width: 1200px;
+    height: 45px;
+    background-color: #F6F6F6;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+       
+
+}
+.nav-item{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 1200px;
+    border: 1px solid #D1D1D1;
+    height: 41px;
+}
+.naman{
+     margin-right: 35px;
+width: 275px;
+height: 45px;
+border-radius: 7px;
+}
+
+.dollar{
+    margin-right: 25px;
+    font-family: Rubik;
+font-weight: 700;
+font-size: 16px;
+line-height: 100%;
+letter-spacing: 0%;
+color: #000000;
+
+}
+.pound{
+    margin-right: 247px;
+    font-family: Rubik;
+font-weight: 500;
+font-size: 16px;
+color:#000000;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.qidiruv{
+    margin-right: 25px;
+    width: 275px;
+    border-radius: 60px;
+
+
+}
+.til{
+    margin-right: 25px;
+    width: 70px;
+    border-radius: 60px;
+}
+.link{
+    text-decoration: none;
+    background-color:#7296EC;
+    border-radius: 10px;
+    text-align: center;
+    width:89px ;
+ 
+}
+.nav-thing{
+    font-family: Rubik;
+font-weight: 500;
+font-size: 18px;
+color:#7F7F7F;
+line-height: 100%;
+letter-spacing: 0%;
+text-align: center;
+
+}
+.smartphone-ul{
+ display: flex;
+ flex-wrap: wrap;
+}
+.photo{
+    width: 393px;
+    margin-bottom: 60px;
+}
+.vkluchit{
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(./images/8eb5ffd9fd0d56c10a07b3e9722b72837df97f7c.png);
+   background-size: 1050px 100px;
+   padding: 24px 71px 24px 29px;
+   margin-bottom: 108px;
+ 
+}
+.text-vkluchit{
+    font-family: Rubik;
+font-weight: 500;
+font-size: 20px;
+color:  #000000;
+width: 404px;
+line-height: 26px;
+letter-spacing: 0%;
+
+
+}
+.tap-vkluchit{
+    display: block;
+    border-radius: 10px;
+    background-color: #F78B3B;
+    padding: 13px 30px 13px 30px;
+    width: 149px;
+
+}
+.dunyo-item{
+    display: flex;
+    margin-bottom: 10px;
+    background-color:#F6F6F6;
+    border-radius: 10px;
+    width: 797px;
+    padding: 20px 20px 20px 17px;
+}
+.picture{
+    margin-right: 15px;
+}
+.dunyo-title{
+    font-family: Rubik;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+letter-spacing: 0%;
+ color:#000000;
+ margin-bottom: 10px;
+ 
+}
+.dunyo-text{
+    font-family: Rubik;
+font-weight: 400;
+font-size: 16px;
+color: #4A4B4C;
+line-height: 22px;
+letter-spacing: 0%;
+margin-bottom: 17px;
+}
+.dunyo-text1{
+    display: flex;
+}
+.dunyo-text1::before{
+display: block;
+content: "";
+width: 20px;
+height: 20px;
+background-image: url(./images/kb.png);
+background-size: 20px 20px;
+border-radius: 5px;
+margin-right: 10px;
+}
+.dunyo-text2{
+    display: flex;
+}
+.dunyo-text2::before{
+    display: block;
+content: "";
+width: 20px;
+height: 20px;
+background-image: url(./images/T\ harfi.png);
+background-size: 20px 20px;
+border-radius: 5px;
+margin-right: 10px;
+}
+.dunyo-text3{
+    display: flex;
+}
+.dunyo-text3::before{
+ display: block;
+content: "";
+width: 20px;
+height: 20px;
+background-image: url(./images/treding.png);
+background-size: 20px 20px;
+border-radius: 5px;
+margin-right: 10px;
+}
+.dunyo-text4{
+    display: flex;
+}
+.dunyo-text4::before{
+display: block;
+content: "";
+width: 20px;
+height: 20px;
+background-image: url(./images/e\ harfi.png);
+background-size: 20px 20px;
+border-radius: 5px;
+margin-right: 10px;
+}
+.dunyo-wrapper{
+    display: flex;
+    /* margin-top: 108px; */
+}
+.menyu{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.menyu-list{
+    background-color:#F6F6F6;
+    border: 1px;
+    border-radius: 15px;
+    width: 393px;
+    padding: 20px 17px 25px 17px;
+}
+.menyu-item{
+    border-bottom: 1px solid #D2D2D2;
+   
+    
+}
+.menyu-subtitle{
+    font-family: Rubik;
+font-weight: 500;
+font-size: 24px;
+color: #000000;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.menyu-text{
+    font-family: Rubik;
+font-weight: 400;
+font-size: 18px;
+color: #5E5F61;
+line-height: 24px;
+letter-spacing: 0%;
+
+}
+.menyu-title{
+   
+    font-family: Rubik;
+font-weight: 500;
+font-size: 18px;
+color: #000000;
+line-height: 24px;
+letter-spacing: 0%;
+
+}
+
+
+
+
+
+
+
+
