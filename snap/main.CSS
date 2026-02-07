@@ -1,0 +1,228 @@
+/* epilogue-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/epilogue-v20-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* epilogue-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Epilogue';
+  font-style: normal;
+  font-weight: 700;
+  src: url('../fonts/epilogue-v20-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Plus Jakarta Sans;
+  margin: 0;
+}
+.container{
+  width: 1400px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+ul,ol{
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+h1,h2,h3,p{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+img{
+  display: block;
+}
+.header{
+    margin-bottom: 67px;
+}
+.header__wrapper{
+    display: flex;
+    padding-top: 32.07px;
+
+    
+}
+
+.header__list{
+    display: flex;
+    gap: 40px;
+    margin-left: 62.24px;
+}
+.header__list2{
+    display: flex;
+    margin-left: auto;
+    gap: 40px;
+}
+.header__item{
+  position: relative;
+  font-family: Epilogue;
+font-weight: 400;
+font-style: Medium;
+font-size: 14px;
+color: #686868;
+line-height: 16px;
+letter-spacing: 0px; 
+}
+.header__enker{
+ font-family: Epilogue;
+font-weight: 400;
+font-style: Medium;
+font-size: 14px;
+color: #686868;
+line-height: 16px;
+letter-spacing: 0px; 
+}
+.header__enker:hover{
+  color: #151515;
+}
+.left__link2{
+  font-family: Epilogue;
+font-weight: 400;
+font-style: Medium;
+font-size: 14px;
+color: #686868;
+line-height: 16px;
+letter-spacing: 0px;
+    width: 104px;
+    border-radius: 14px;
+    border:1.5px solid white;
+    padding:13px 22px 13px 22px;
+}
+.left__link2:hover{
+  border-color: #151515;
+}
+.left__link1{
+  font-family: Epilogue;
+font-weight: 400;
+font-style: Medium;
+font-size: 14px;
+color: #686868;
+line-height: 16px;
+letter-spacing: 0px;
+  border:1.5px solid white;
+  padding:13px 22px 13px 22px;
+  border-radius: 15px;
+}
+.left__link1:hover{
+border-color: #151515;
+}
+.hero__wrapper{
+    display: flex;
+    padding-left: 80px;
+    
+}
+.make{
+    width: 540px;
+    margin-right: 150px;
+    margin-top: 184px;
+}
+.make__title{
+    width: 540px;
+   color:  #151515;
+font-family: Epilogue;
+font-weight: 700;
+font-style: Bold;
+font-size: 80px;
+line-height: 80px;
+letter-spacing: -1.11px;
+margin-bottom: 48px;
+}
+.make__text{
+    width: 445px;
+    font-family: Epilogue;
+font-weight: 400;
+font-style: Medium;
+font-size: 18px;
+color: #686868;
+line-height: 28px;
+letter-spacing: 0px;
+margin-bottom: 51px;
+}
+.make__link{
+    background-color: #151515;
+    color: #FAFAFA;
+    width: 163px;
+    padding: 15px 28px 13px 31px;
+    font-family: Epilogue;
+font-weight: 700;
+font-style: Bold;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: -0.25px;
+text-align: center;
+border-radius: 15px;
+border: 1px solid black;
+}
+.make__link:hover{
+  background-color:white;
+  border-color:black;
+  color: #151515;
+}
+.make__list{
+    display: flex;
+    gap: 40px;
+    margin-top: 108px;
+}
+.header__modal-list{
+  position: absolute;
+  top: -1000px;
+  padding: 24px;
+  box-shadow: 0px 10px 40px 0px #00000026;
+border-radius: 10px;
+}
+.header__features-item{
+  margin-bottom: 16px;
+  display: flex;
+  
+}
+.header__features-item:nth-child(4){
+  margin-bottom: 0;
+}
+.header__company-item{
+  margin-bottom: 16px;
+}
+.header__company-item:nth-child(3){
+  margin-bottom: 0;
+}
+.header__features-item::before{
+  display: block;
+  content:"";
+  width: 16px;
+  height: 16px;
+  background-image: url(./images/List.svg);
+  background-size: 14px 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+}
+.header__features-item:nth-child(2)::before{
+  background-image: url(./images/calendar.svg);
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+}
+.header__features-item:nth-child(3)::before{
+  background-image: url(./images/Bell.svg);
+  background-size: 12px 16px;
+  background-repeat: no-repeat;
+  margin-right: 15px;
+}
+.header__features-item:nth-child(4)::before{
+  background-image: url(./images/shakllar.svg);
+ background-size: 16px  16px;
+  background-repeat: no-repeat; 
+  margin-right: 15px;
+
+}
+.header__item:hover .header__modal-list{
+top: 20px;
+left: -20px;
+}

@@ -1,0 +1,28 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: Plus Jakarta Sans;
+  margin: 0;
+}
+.container{
+  width: 1260px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+ul,ol{
+  padding-left: 0;
+  margin: 0;
+  list-style: none;
+}
+h1,h2,h3,p{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+}
+img{
+  display: block;
+}
+
+
